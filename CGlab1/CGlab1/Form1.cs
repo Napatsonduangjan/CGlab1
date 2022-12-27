@@ -25,6 +25,9 @@ namespace CGlab1
             Pen myPen1 = new Pen(System.Drawing.Color.Brown, 5);
             Pen myPen2 = new Pen(System.Drawing.Color.Black, 5);
             Pen myPen3 = new Pen(System.Drawing.Color.Pink, 5);
+            Pen myPen4 = new Pen(System.Drawing.Color.Wheat, 5);
+            Pen myPen5 = new Pen(System.Drawing.Color.Red, 5);
+
 
 
 
@@ -37,14 +40,21 @@ namespace CGlab1
             myGraphic.DrawRectangle(myPen1, 100, 150, 140, 140);
 
 
-            myGraphic.DrawLine(myPen2, 170, 288, 170, 153);
+            myGraphic.DrawLine(myPen3, 170, 288, 170, 153);
+            myGraphic.DrawLine(myPen3, 103, 220,238, 220);
 
             myGraphic.DrawEllipse(myPen3, 120, 100, 50,50);
          
             myGraphic.DrawEllipse(myPen3, 170, 100, 50, 50);
 
-            myGraphic.DrawArc(myPen1, 150, 10, 40, 280, 0, 50);
-            myGraphic.DrawArc(myPen1, 100, 10, 40,280, 0,50);
+            myGraphic.DrawArc(myPen3, 150, 10, 40, 280, 0, 50);
+            myGraphic.DrawArc(myPen3, 100, 10, 40,280, 0,50);
+
+            myGraphic.DrawRectangle(myPen4, 80, 293, 100,100);
+            myGraphic.DrawRectangle(myPen5, 186, 293, 100, 100);
+
+
+
 
 
         }
