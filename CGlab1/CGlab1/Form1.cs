@@ -40,10 +40,12 @@ namespace CGlab1
             myGraphic.DrawLine(myPen2, 170, 288, 170, 153);
 
             myGraphic.DrawEllipse(myPen3, 120, 100, 50,50);
+         
             myGraphic.DrawEllipse(myPen3, 170, 100, 50, 50);
 
-            myGraphic.DrawArc(myPen1, 100, 10, 98,280, 0,45);
-            
+            myGraphic.DrawArc(myPen1, 150, 10, 40, 280, 0, 50);
+            myGraphic.DrawArc(myPen1, 100, 10, 40,280, 0,50);
+
 
         }
     }
