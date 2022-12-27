@@ -1,0 +1,11 @@
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\bin\Debug\CGlab1.exe.config
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\bin\Debug\CGlab1.exe
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\bin\Debug\CGlab1.pdb
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.csproj.AssemblyReference.cache
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.csproj.SuggestedBindingRedirects.cache
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.Form1.resources
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.Properties.Resources.resources
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.csproj.GenerateResource.cache
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.csproj.CoreCompileInputs.cache
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.exe
+C:\Users\napatson\OneDrive\Documents\วิชาอจ.ปโยธร\CGlab1\CGlab1\CGlab1\CGlab1\obj\Debug\CGlab1.pdb
