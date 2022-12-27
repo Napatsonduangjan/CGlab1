@@ -43,7 +43,7 @@ namespace CGlab1
             myGraphic.DrawEllipse(myPen3, 170, 100, 50, 50);
 
             myGraphic.DrawArc(myPen1, 100, 10, 98,280, 0,45);
-
+            
 
         }
     }
