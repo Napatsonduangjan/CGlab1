@@ -53,6 +53,11 @@ namespace CGlab1
             myGraphic.DrawRectangle(myPen4, 80, 293, 100,100);
             myGraphic.DrawRectangle(myPen5, 186, 293, 100, 100);
 
+            myGraphic.DrawLine(myPen1, 490, 400, 490, 200);
+            myGraphic.DrawLine(myPen1, 540, 400, 540, 200);
+            myGraphic.DrawLine(myPen1, 500, 300, 200, 200);
+
+
 
 
 
