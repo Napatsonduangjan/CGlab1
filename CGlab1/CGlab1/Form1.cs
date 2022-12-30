@@ -27,7 +27,10 @@ namespace CGlab1
             Pen myPen3 = new Pen(System.Drawing.Color.Pink, 5);
             Pen myPen4 = new Pen(System.Drawing.Color.Wheat, 5);
             Pen myPen5 = new Pen(System.Drawing.Color.Red, 5);
-
+            Pen myPen6 = new Pen(System.Drawing.Color.Indigo, 5);
+            Pen myPen7 = new Pen(System.Drawing.Color.Khaki, 5);
+            Pen myPen8 = new Pen(System.Drawing.Color.LawnGreen, 5);
+            Pen myPen9 = new Pen(System.Drawing.Color.YellowGreen, 5);
 
 
 
@@ -53,9 +56,42 @@ namespace CGlab1
             myGraphic.DrawRectangle(myPen4, 80, 293, 100,100);
             myGraphic.DrawRectangle(myPen5, 186, 293, 100, 100);
 
-            myGraphic.DrawLine(myPen1, 490, 400, 490, 200);
-            myGraphic.DrawLine(myPen1, 540, 400, 540, 200);
-            myGraphic.DrawLine(myPen1, 500, 300, 200, 200);
+            
+            myGraphic.DrawLine(myPen9, 550, 50, 550, 500);
+            myGraphic.DrawEllipse(myPen5, 30, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen3, 50, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen8, 70, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen5, 90, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen2, 110, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen3, 130, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen7, 150, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen6, 170, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen2, 190, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen4, 210, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen5, 10, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen8, 230, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen4, 250, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen7, 270, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen6, 290, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen5, 310, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen3, 330, 30, 20, 20);
+          
+            myGraphic.DrawEllipse(myPen5, 350, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen6, 370, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen3, 390, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen8, 410, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen3, 430, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen4, 450, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen6, 470, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen4, 490, 30, 20, 20);
+            myGraphic.DrawEllipse(myPen2, 510, 30, 20, 20);
+            myGraphic.DrawRectangle(myPen4, 530, 30, 20, 20);
+            myGraphic.DrawArc(myPen1, 400, 50, 50, 400, 300, 45);
+
+
+
+
+
 
 
 
