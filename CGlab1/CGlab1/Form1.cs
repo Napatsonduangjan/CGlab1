@@ -31,6 +31,7 @@ namespace CGlab1
             Pen myPen7 = new Pen(System.Drawing.Color.Khaki, 5);
             Pen myPen8 = new Pen(System.Drawing.Color.LawnGreen, 5);
             Pen myPen9 = new Pen(System.Drawing.Color.YellowGreen, 5);
+            Pen myPen10 = new Pen(System.Drawing.Color.Violet, 5);
 
 
 
@@ -41,8 +42,8 @@ namespace CGlab1
             //myGraphic.DrawArc(myPen1, 100, 100, 450, 450, 0, 45); //จุดมุมบนซ้าย ความกว้าง ความสูง องศาเริ่ม องศาสิ้นสุด ตามเข็ม
 
             myGraphic.DrawRectangle(myPen1, 100, 150, 140, 140);
-
-
+            myGraphic.DrawRectangle(myPen6, 400, 220, 140, 140);
+            
             myGraphic.DrawLine(myPen3, 170, 288, 170, 153);
             myGraphic.DrawLine(myPen3, 103, 220,238, 220);
 
@@ -53,8 +54,9 @@ namespace CGlab1
             myGraphic.DrawArc(myPen3, 150, 10, 40, 280, 0, 50);
             myGraphic.DrawArc(myPen3, 100, 10, 40,280, 0,50);
 
-            myGraphic.DrawRectangle(myPen4, 80, 293, 100,100);
-            myGraphic.DrawRectangle(myPen5, 186, 293, 100, 100);
+            myGraphic.DrawRectangle(myPen9, 100, 295, 68,68);
+            myGraphic.DrawRectangle(myPen8, 450, 165, 50, 50);
+            myGraphic.DrawRectangle(myPen5, 176, 295, 68, 68);
 
             
             myGraphic.DrawLine(myPen9, 550, 50, 550, 500);
@@ -86,7 +88,7 @@ namespace CGlab1
             myGraphic.DrawRectangle(myPen4, 490, 30, 20, 20);
             myGraphic.DrawEllipse(myPen2, 510, 30, 20, 20);
             myGraphic.DrawRectangle(myPen4, 530, 30, 20, 20);
-            myGraphic.DrawArc(myPen1, 400, 50, 50, 400, 300, 45);
+            
 
 
 
