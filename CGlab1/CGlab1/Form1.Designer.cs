@@ -34,7 +34,7 @@
             // nd
             // 
             this.nd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nd.Location = new System.Drawing.Point(675, 385);
+            this.nd.Location = new System.Drawing.Point(756, 400);
             this.nd.Name = "nd";
             this.nd.Size = new System.Drawing.Size(89, 38);
             this.nd.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(862, 450);
             this.Controls.Add(this.nd);
             this.Name = "Form1";
             this.Text = "Form1";
