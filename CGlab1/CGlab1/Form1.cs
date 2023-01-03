@@ -41,26 +41,28 @@ namespace CGlab1
             //myGraphic.DrawEllipse(myPen2, 15, 35, 170, 140); //จุดมุมบนซ้าย ความกว้าง ความสูงของกรอบสี่เหลี่ยม
             //myGraphic.DrawArc(myPen1, 100, 100, 450, 450, 0, 45); //จุดมุมบนซ้าย ความกว้าง ความสูง องศาเริ่ม องศาสิ้นสุด ตามเข็ม
 
+            //กล่องใหญ่ซ้าย
             myGraphic.DrawRectangle(myPen1, 100, 150, 140, 140);
-            myGraphic.DrawRectangle(myPen6, 400, 220, 140, 140);
-            
             myGraphic.DrawLine(myPen3, 170, 288, 170, 153);
             myGraphic.DrawLine(myPen3, 103, 220,238, 220);
-
             myGraphic.DrawEllipse(myPen3, 120, 100, 50,50);
-         
             myGraphic.DrawEllipse(myPen3, 170, 100, 50, 50);
-
-            myGraphic.DrawArc(myPen3, 150, 10, 40, 280, 0, 50);
+            myGraphic.DrawArc(myPen3, 150, 10, 40, 280, 0,50);
             myGraphic.DrawArc(myPen3, 100, 10, 40,280, 0,50);
 
+            //กล่องเล็กซ้าย
+            myGraphic.DrawRectangle(myPen2, 25, 295, 68, 68);
             myGraphic.DrawRectangle(myPen9, 100, 295, 68,68);
-            myGraphic.DrawRectangle(myPen8, 450, 165, 50, 50);
             myGraphic.DrawRectangle(myPen5, 176, 295, 68, 68);
+           
+           //ตัวH
+           
+            myGraphic.DrawRectangle(myPen6, 400, 220, 140, 140); //กล่องใหญ่ขวา
+            myGraphic.DrawRectangle(myPen8, 450, 165, 50, 50); //กล่องเล็กซ้าย
 
             
-            myGraphic.DrawLine(myPen9, 550, 50, 550, 500);
-            myGraphic.DrawEllipse(myPen5, 30, 30, 20, 20);
+            myGraphic.DrawLine(myPen9, 550, 50, 550, 500); //เส้นตรง
+            myGraphic.DrawEllipse(myPen5, 30, 30, 20, 20); //ประดับข้างบน
             myGraphic.DrawEllipse(myPen3, 50, 30, 20, 20);
             myGraphic.DrawEllipse(myPen8, 70, 30, 20, 20);
             myGraphic.DrawEllipse(myPen5, 90, 30, 20, 20);
@@ -77,7 +79,6 @@ namespace CGlab1
             myGraphic.DrawRectangle(myPen6, 290, 30, 20, 20);
             myGraphic.DrawRectangle(myPen5, 310, 30, 20, 20);
             myGraphic.DrawRectangle(myPen3, 330, 30, 20, 20);
-          
             myGraphic.DrawEllipse(myPen5, 350, 30, 20, 20);
             myGraphic.DrawRectangle(myPen6, 370, 30, 20, 20);
             myGraphic.DrawEllipse(myPen3, 390, 30, 20, 20);
@@ -88,7 +89,9 @@ namespace CGlab1
             myGraphic.DrawRectangle(myPen4, 490, 30, 20, 20);
             myGraphic.DrawEllipse(myPen2, 510, 30, 20, 20);
             myGraphic.DrawRectangle(myPen4, 530, 30, 20, 20);
+
             
+
 
 
 
